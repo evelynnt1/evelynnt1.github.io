@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="color-scheme: dark;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tianyi Zhao - My Blog</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="shortcut icon" href="./assets/public/pineapple.svg" />
+</head>
+<body>
+    <canvas class="fireworks"></canvas>
+    <div class="head">
+        <div class="main">
+            <a href="./index.html" class="logo"><img src="./assets/public/Evelynn_text.svg"></a>
+            <div class="menu">
+                <li class="magical btn" onclick="window.location.href='./index.html'">Home 首页</li>
+                <li class="magical btn" onclick="window.location.href='./work.html'">Work 作品集</li>
+                <li class="magical btn nav" onclick="window.location.href='./blog.html'">Blog 文章</li>
+                <li class="magical btn" onclick="window.location.href='./about.html'">About Me 关于我</li>
+            </div>
+            <div class="menu" id="menu-expand">
+                <li class="magical btn skin" id="menu-expand-child"><i class="icon menu-icon"></i></li>
+            </div>
+            <div id="menu-panel">
+                <div class="menu-panel-content">
+                    <li class="magical btn" onclick="window.location.href='./index.html'">Home 首页</li>
+                    <li class="magical btn" onclick="window.location.href='./work.html'">Work 作品集</li>
+                    <li class="magical btn nav" onclick="window.location.href='./blog.html'">Blog 文章</li>
+                    <li class="magical btn" onclick="window.location.href='./about.html'">About Me 关于我</li>
+                </div>
+            </div>
+        </div>
+        <blockquote><img src="./assets/public//pineapple.svg"></blockquote>
+    </div>
+    <div class="blog">
+        <div class="blog-left">
+            <div class="blog-left-line"><img src="./assets/blog/line-dot.svg"></div>
+        </div>
+        <div class="blog-list">
+            <div class="item">
+                <a href="https://www.yuque.com/evelynnt1" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">我的知识花园</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                            <div class="tag">✨</div>
+                        </div>
+                        <div class="desc">你可以了解我在品牌内容资产方面的相关经验、多年市场营销工作以来日积月累的丰富实战经验。</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">TianyiZhao</div>
+                        <div class="info-time">1970-01-01</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+                <div class="text">
+                    <div class="title-area">
+                        <div class="title">
+                            <div class="name"> 「*********⬇️ 1、AI汽车行业: 口碑营销、联合营销、人工智能、车展报道、技术解读、产品科普、新闻稿、CEOIP 等栏目 ⬇️ **********」</div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg3MDcwNjgzMA==&action=getalbum&album_id=3499770678042230786&scene=173&subscene=0&sessionid=0&enterid=1730537812&from_msgid=2247488842&from_itemidx=1&count=3&nolastread=1#wechat_redirect" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">#绝影和TA的“朋友”们 栏目</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">旨在聚合量产合作案例, 打造绝影朋友圈，提升官方渠道传播声量和效率</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2024 阅读 3.5万</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="【绝影SenseAuto的个人空间-哔哩哔哩】 https://b23.tv/6rXoNjK" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">#绝影小课堂 栏目</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">产品经理角度, 深入浅出讲解智驾、智舱、AI云等一系列产品</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2024 阅读 1.5万</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg3MDcwNjgzMA==&action=getalbum&album_id=3602384400429678603&scene=126#wechat_redirect" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">#晓刚老师 栏目</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">围绕CEOIP、演讲内容梳理、论坛发言速记、金句挖掘等内容</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2024 阅读 3.5万</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://blog.csdn.net/Evelynnzhao?spm=1011.2415.3001.5343" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">#绝佳视角技术解读 栏目</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc"> 分享 ai 汽车行业 insights, 端到端、多模态、AI Agent等大模型赋能智能汽车最新进展
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2024 访问量 2.3万</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+                <div class="text">
+                    <div class="title-area">
+                        <div class="title">
+                            <div class="name"> 「**********⬇️ 2、新能源行业: 上市、产品营销、品牌定位、场景、大促营销、UGC、联合营销 等 ⬇️**********」</div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://www.xiaohongshu.com/page/topics/64c25a21b492df00019d209f?fullscreen=true&naviHidden=yes&xhsshare=CopyLink&appuid=56be3ef66a6a69528375116e&apptime=1730544796&share_id=f664b3630fad4f249b354c5630f140ef" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">展翼门的一百种玩法 系列</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">场景向-围绕产品卖点展翼门, 搭建直击用户心智的创意场景, 提升品牌认知</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">原创: Evelynn</div>
+                        <div class="info-time">主阵地: 小红书 4万 views</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+                <div class="item">
+                    <a href="https://www.xiaohongshu.com/page/topics/6007cbd5f17b3d000134cff3?fullscreen=true&naviHidden=yes&xhsshare=CopyLink&appuid=56be3ef66a6a69528375116e&apptime=1730545040&share_id=da51a17813c44b1aa09906e0682838a0" target="_blank">
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">杨老师带你了解HiPhiY 系列</div>
+                                    <div class="link"> ↗</div>
+                                </div>
+                            </div>
+                            <div class="desc">科普向-产品经理超硬核讲车, 绕车讲解、动态试驾体验、当销冠不迷路、杨老师IP打造</div>
+                        </div>
+                        <div class="info">
+                            <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                            <div class="info-name">原创: Evelynn</div>
+                            <div class="info-time">主阵地: 小红书 59.4万 views</div>
+                        </div>
+                    </a>
+                    <div class="content-divider"></div>
+                </div>
+                <div class="item">
+                    <a href="https://www.xiaohongshu.com/page/topics/64b2b8e2c1173d00018be13e?fullscreen=true&naviHidden=yes&xhsshare=CopyLink&appuid=56be3ef66a6a69528375116e&apptime=1730546737&share_id=73ec90f06c9f4e53b2a437b4932a5bcd" target="_blank">
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">HiPhiY 全球上市发布会</div>
+                                    <div class="link"> ↗</div>
+                                </div>
+                            </div>
+                            <div class="desc">脚本撰写、十大卖点产品传播、发布会视频物料制作及二创</div>
+                        </div>
+                        <div class="info">
+                            <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                            <div class="info-name">PM: Evelynn</div>
+                            <div class="info-time">官方全平台 300万 views</div>
+                        </div>
+                    </a>
+                    <div class="content-divider"></div>
+                </div>
+                <div class="item">
+                    <a href="https://m.dcdapp.com/motor/m/car_series/index?link_source=share&series_id=8802&zt=car_series_share" target="_blank">
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">HiPhiY懂车帝车系页</div>
+                                    <div class="link"> ↗</div>
+                                </div>
+                            </div>
+                            <div class="desc">垂媒运营: 包含口碑、PGC测评、UGC精华内容、车友圈动态等铺设</div>
+                        </div>
+                        <div class="info">
+                            <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                            <div class="info-name">负责人：赵天一</div>
+                            <div class="info-time">总内容数 600+</div>
+                        </div>
+                    </a>
+                    <div class="content-divider"></div>
+                </div>
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name"> 「⬇️ **********3、发布于 ELLEDECO: 家居空间解构、室内设计品鉴、展会展览报道、博主名人访谈、生活方式话题 等内容 ⬇️ **********」</div>  
+                            </div>
+                        </div>
+                    </div>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://mp.weixin.qq.com/s/_ppbXMwVrsz0ZUy6sGqCaw" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">现在的家居店，就喜欢开在隐秘的角落</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">Topic: 选购家具指南</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn </div>
+                        <div class="info-time">2020-07-10 阅读 3.4万</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://mp.weixin.qq.com/s/rcdex4BZuDW45lA83NKnIw" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">炒股不如炒家具</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">对话CASACASA主理人, 讨论家具正确的升值逻辑以及他收藏的评判标准</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2020-09-15 阅读 4.5万</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://mp.weixin.qq.com/s/ULtAoOqQniyvUHI-AF1_qg" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">这对上海夫妻淘遍全世界, 装进了50m²的酒店公寓</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">跟着“家具”环游“世界”, 介绍两位建筑设计爱好者的家</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2020-09-17 阅读 3.4万</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://mp.weixin.qq.com/s/UrvwcOXUFmUj9QNqC2PYFA" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">你是哪种工具人？</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">七夕节日热点，实力演绎“工具人”男友</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2020-08-24 阅读 2.8万</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://mp.weixin.qq.com/s/ONOgN8gsRRrs9imaf0tMPA" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">我们踮着脚, 逛完了10级强迫症潮玩藏家的家</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">以当下最火热的潮玩收藏为切入点, 探访解读全品类藏家 Leiyu 杭州的家</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2020-07-31 阅读 3.1万</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://mp.weixin.qq.com/s/7THfM19Mfku7k3zYLuwEqA" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">快上船, DECO编辑总监揭秘LV秀里的小怪兽</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">Report: 以编辑总监带你逛展的视角为切入点, 记录 2020 LV春夏男装秀</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2020-08-07 阅读 2.4万</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://mp.weixin.qq.com/s/0w0kRMO7jdIbcWBZuX8VeA" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">LOFT中国首店开业, 一场生活方式的战争正在打响</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">Hotspot& Report: 热门地标、新店开幕、产品发布等报道合集</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2020-07-27 阅读: 9722</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://mp.weixin.qq.com/s/coIV0nfRXJudO37RyoJi6A" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">他的工作室, 没有一把舒服的椅子</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">Home: 走进艺术家的工作室, 探访个性表达</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2020-08-10 阅读 3.3万</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://mp.weixin.qq.com/s/E4lI95e5sITcj3xUBFn92A" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">迁徙时代，你是哪种搬家型人格？</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc"> TOPIC: 七月毕业季为切入点, 展开探讨搬家Tips</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2020-07-02 阅读 2.7万</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://mp.weixin.qq.com/s/RcmoeqeivIbnSMjQnw0PmA" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">MIU MIU陪你一起到夏日海边狂欢</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">Weekly Report 设计周报</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2020-07-06 阅读 2502</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://mp.weixin.qq.com/s/5h2psu5hZwHzcY7l8jE3NQ" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">这家时装店，空无一物</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">DECO SPACE栏目 旨在挖掘优质的新锐设计师, 为设计师搭建一个展现自我才华的平台</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2020-06-03 阅读 5495  </div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://mp.weixin.qq.com/s/L70PUKm588CkpXl2pNkHtA" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">听说重启的电影院，开始关爱单身汪了？</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">借疫情解封后电影院开业为切入点, 解构影院空间设计</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2020-05-27 阅读 3698</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://mp.weixin.qq.com/s/2XnM6le9a3O-rqq0jz_o5Q" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">响应号召, 你选好地方摆地摊了吗？| DECO设计周报</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">Weekly Report: 紧跟时下“摆摊”热点，报导国内最新展览、设计趋势等</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2020-06-08  阅读 4774</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://mp.weixin.qq.com/s/2U5qZuRqKOTEh-lI_fxHqg" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">家居界新C位“翁贝托风”原地出道</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">DECO HOME栏目 展示工作室的空间充满活力和现代品位，由“新旧元素”碰撞带来的治愈之美。</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2020-06-16 阅读 3.2万</div>
+                    </div>
+                </a>
+                <div class="content-divider"></div>
+            </div>
+            <div class="item">
+                <a href="https://mp.weixin.qq.com/s/Hh8Mk9OmWgDzTVaYBUW7og" target="_blank">
+                    <div class="text">
+                        <div class="title-area">
+                            <div class="title">
+                                <div class="name">光是家的魔法师 | 家Club</div>
+                                <div class="link"> ↗</div>
+                            </div>
+                        </div>
+                        <div class="desc">DECO SPACE栏目 旨在挖掘优质的新锐设计师, 为设计师搭建一个展现自我才华的平台</div>
+                    </div>
+                    <div class="info">
+                        <div class="info-avatar"><img src="./assets/blog/avatar.svg"></div>
+                        <div class="info-name">作者: Evelynn</div>
+                        <div class="info-time">2020-06-16 阅读 5075</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright">
+            <div>© 2023 Design by <a href="https://evelynnt1.cn/" target="_blank">Evelynn</a></div>
+            <span>|</span>
+            <div class="fillings">
+                <a href="https://evelynnt1.cn/" target="_blank">Evelynn</a>
+            </div>
+            <span>|</span>
+            <div class="friends">
+                <a href="https://zdo.fun/" target="_blank">ZDO</a>
+            </div>
+        </div>
+    </div>
+    <div class="widget">
+        <div class="shape-light"></div>
+        <div class="shape-star">
+            <div class="rising-stars rising-stars-visible">
+                <div style="height:1px;width:1px"></div>
+                <div style="height:2px;width:2px"></div>
+                <div style="height:1px;width:1px"></div>
+            </div>
+        </div>
+        <div class="shape-earth"></div>
+    </div>
+</body>
+<script>
+    window.addEventListener("mousemove", function (e) {
+        document.querySelectorAll(".magical").forEach(element => {
+            const rect = element.getBoundingClientRect();
+            const offsetX = e.clientX - rect.left;
+            const offsetY = e.clientY - rect.top;
+            element.style.setProperty("--mouse-x", `${offsetX}px`);
+            element.style.setProperty("--mouse-y", `${offsetY}px`);
+        });
+    });
+</script>
+<script src="./js/main.min.js"></script>
+<script src='./js/anime.js'></script>
+<script src='./js/firework.js'></script>
+</html>

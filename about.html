@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="color-scheme: dark;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tianyi(Evelynn)Zhao - About Me</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="shortcut icon" href="./assets/public/pineapple.svg"/>
+</head>
+<body>
+    <canvas class="fireworks"></canvas>
+    <div class="head">
+        <div class="main">
+            <a href="./index.html" class="logo"><img src="./assets/public/Evelynn_text.svg"></a>
+            <div class="menu">
+                <li class="magical btn " onclick="window.location.href='./index.html'">Home 首页</li>
+                <li class="magical btn" onclick="window.location.href='./work.html'">Work 作品集</li>
+                <li class="magical btn" onclick="window.location.href='./blog.html'">Blog 文章</li>
+                <li class="magical btn nav" onclick="window.location.href='./about.html'">About Me 关于我</li>
+            </div>
+            <div class="menu" id="menu-expand">
+                <li class="magical btn skin" id="menu-expand-child"><i class="icon menu-icon"></i></li>
+            </div>
+            <div id="menu-panel">
+                <div class="menu-panel-content">
+                    <li class="magical btn" onclick="window.location.href='./index.html'">Home 首页</li>
+                    <li class="magical btn" onclick="window.location.href='./work.html'">Work 作品集</li>
+                    <li class="magical btn" onclick="window.location.href='./blog.html'">Blog 文章</li>
+                    <li class="magical btn nav" onclick="window.location.href='./about.html'">About Me 关于我</li>
+                </div>
+            </div>
+        </div>
+        <blockquote><img src="./assets/public//pineapple.svg"></blockquote>
+    </div>
+    <div class="about">
+        <div class="about-top">
+            <div class="about-name">Evelynn Zhao 赵天一</div>
+            <div class="about-info">
+                <div class="about-info-left">
+                    <div class="about-info-title"> 个人简介</div>
+                    <div class="introduce-desc">
+                        
+                        拥有5年AI与新能源汽车行业品牌建设及整合营销经验: 深耕品牌定位、市场调研、品牌视觉设计及跨部门协作, 具备从0到1的品牌建设、商业化和IP孵化能力。<br><br>
+                        专注于新能源、智能驾驶、智能座舱和AI云等领域, 具备深厚的实践经验与独到见解。对整合营销充满热情。业务结果导向，不断寻求终极产品、销售、市场、品牌与商业理解之间的平衡，以解决实际问题并驱动增长。<br><br>
+                        精通品牌项目运营管理：负责多个大型品牌项目的运营管理，具备优秀的策划、推广及传播统筹能力，能够精准挖掘用户需求，灵活运用媒介传播策略推动品牌成长，赋能销售，以达成业绩指标。<br><br>
+                        全球化视野与数据驱动决策能力: 数据分析硕士、市场营销学士留学背景, 善用市场分析工具, 英语可作为工作语言, 为跨国品牌市场扩展与销售增长提供有力支持。<br><br>
+                    </div>
+
+                    <div class="about-info-title">能力结构</div>
+                    <div class="introduce-desc">
+                        营销与品牌管理:具备卓越的市场营销思维能力,擅长整合创新内容与资源,推动品牌上市、展会及赞助合作等活动。曾主导多个从 0 到 1 的 GTM (Go-to-Market) 项目,在国际市场品牌管理中表现出色。<br><br>
+                        数据分析与可视化:数据敏感度高,能够结构化分析复杂数据,善于通过 Tableau、Power BI 等工具进行数据展示,帮助优化市场策略和品牌推广。<br><br>
+                        国际化工作能力：英语熟练，可作为工作语言，能在全球化背景下高效协作和沟通，推动跨国品牌市场扩展与销售增长。<br><br>
+                    </div>
+                    <div class="about-info-title">专业技能</div>
+                    <div class="introduce-desc">
+                        数据分析工具: Python、R-shiny、VSCode、Tableau、Power BI、Google Analytics、百度分析;<br>
+                        市场推广工具: Microsoft Office、X-Mind、Visio;<br>
+                        编程基础: SQL、CSS、Markdown;<br>
+                    </div>
+                </div>
+                <div class="about-info-right">
+                    <div class="contact">
+                        <div class="about-info-title">Contact</div>
+                        <div class="contact-desc">
+                            <div class="list">
+                                <div class="list-label">Email:</div>
+                                <div href="javascript:" class="list-value" id="email" tabindex="0" role="button"  title="点击复制邮箱">
+                                    <a id="emailCopied">tianyizhao2018@163.com</a>
+                                </div>
+                                <span class="list-value copied">copied&nbsp;✓</span>
+                            </div>
+                            <div class="list">
+                                <div class="list-label">Wechat:</div>
+                                <div class="list-value">
+                                    <a class="tooltip">Evelynnt1
+                                        <div class="tooltip-box">
+                                            <img src="./assets/about/wechat1.png">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume">
+                        <div class="about-info-title resume-title">Resume</div>
+                        <div class="resume-desc">
+                            <div class="resume-desc-helptext">Download my resume (PDF & 1MB)</div>
+                            <div class="magical resume-btn"><a href="https://kdocs.cn/l/cbu4SRRmFKL4" target="_blank">Download</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-middle">
+            <div class="power">
+                <div class="list-00">
+                    <div class="magical power-card-number">
+                        <a>
+                            <div class="card-title">3</div>
+                            <div class="card-text">Work</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card-number">
+                        <a>
+                            <div class="card-title">30⁺</div>
+                            <div class="card-text">Project</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card-number">
+                        <a>
+                            <div class="card-title">100⁺</div>
+                            <div class="card-text">Article</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card-number">
+                        <a>
+                            <div class="card-title">4</div>
+                            <div class="card-text">Industries</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="list-01">
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/abstract.svg')"></div>
+                            <div class="card-text">内容创意: 擅长打造直击用户心智的创意场景, 精准传递核心卖点, 提升品牌认知</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/menu.svg')"></div>
+                            <div class="card-text">业务导向: 卓越销售能力, 善于洞察客户需求并制定高效谈单策略, 推动业绩增长</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/code.svg')"></div>
+                            <div class="card-text">数据洞察: 精准识别漏斗瓶颈、验证AB测试结果、优化投放, 提升 ROI 提供支持</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/pin.svg')"></div>
+                            <div class="card-text">整合营销: 丰富的品牌市场销售团队管理经验, 达人合作资源, 助力横、纵向拉通</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/pen.svg')"></div>
+                            <div class="card-text">项目管理: 精通热门ai工具, 能够熟练产出各类品牌物料、ai投放、ai铺发运营</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-bottom">
+            <div class="experience">
+                <div class="item">
+                    <div class="time">❖ 2024.02 ~ 2024.09</div>
+                    <div class="name">
+                        <div class="company"><a href="https://www.sensetime.com/cn" target="_blank"> SenseAuto 绝影智能↗</a></div>
+                        <div class="company"><a href="https://baike.baidu.com/item/商汤集团有限公司/61382882?fromModule=search-result_lemma" target="_blank"> SenseTime 商汤科技↗</a></div>
+                        <div class="job">AI | 品牌资产| 活动策划｜ </div>
+                        <div class="job">内容传播策略| 官号矩阵| SEO|</div>
+                        <div class="job">私域运营| Copyright| PM </div>
+                    </div>
+                    <div class="project-experience">
+                        <div class="item">
+                            <div class="title">Marketing Manager 市场经理</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>品牌营销: 负责绝影品牌刷新,主导品牌核心要素如品牌片、品宣手册、中英文官网、展厅讲解词、SEO优化、词条优化等项目, 实现从无到有的品牌架构搭建;
+                                        统筹品牌、产品传播、活动运营、公关传播和销售等跨部门协作, 车展当日提升品牌全平台曝光度至 6kW+，单日微信指数达历史峰值 ;</li>
+                                    <li>联合营销: 策划“绝影和他的朋友们”栏目, 联合传播6次, 主要营销物料浏览量平均同比提升30% +，聚合科普、生态伙伴等多维内容，提升品牌认知度;</li>
+                                    <li>行业调研: 梳理分析外部AI和汽车产业、上下游企业、友商现状、布局及趋势, 协助锚定绝影品牌定位, 同时在和行业对比中挖掘传播亮点, 提高品牌影响力;</li>
+                                    <li>内容策划: 从头搭建绝影各个业务和产品内容框架体系，构建起绝影的内容子弹库；配合公司大事件、合作伙伴需求、产品发布、车展活动等事项，将技术专业术语“翻译”为通俗易懂的内容表达；
+                                        卷积产品技术等团队，形成智驾、智舱产品社媒长期传播条线;</li>
+                                    <li>社媒传播: 输出全年社媒策略，规范化社媒运营管理。推动业务发展，做强企业品牌/大事件传播，将社媒打造成绝影对外传播的专业、权威的官方窗口;</li>
+                                    <li>矩阵搭建: 新设并新增运营7大社媒平台, 包括红书、B站、抖音、微博、知乎、LinkedIn 、CSDN博客,行成包括微信公众号在内的8大社媒阵地建设与矩阵化打法;</li>
+                                    <li>精细运营: 打造企业活动社媒Campaign, 形成社媒视频拍摄能力中心, 产出300+条多种形式的传播内容, 输出高质量推文60+, 其中原创视频10+,
+                                         总曝光量翻倍, 全平台粉丝数用户累计增长3W+, 公众号在原有总数基础上增加100%, 达到12,000+, 互动量达到2,400+, 平均阅读量增长200%。</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="time">❖ 2020.12 ~ 2024.02</div>
+                    <div class="name">
+                        <div class="company"><a href="https://www.hiphi.cn" target="_blank">HiPhi 高合 ↗</a></div>
+                        <div class="company"><a href="https://baike.baidu.com/item/华人运通/23380905?fr=ge_ala" target="_blank">Human Horizons 华人运通 ↗</a></div>
+                        <div class="job"> 新能源| PM| GTM| 公关| </div>
+                        <div class="job"> 销售｜管理｜口碑营销｜事件营销| </div>
+                        <div class="job"> 用户增长| 培训| IP</div>
+                    </div>
+                    <div class="project-experience">
+                        <div class="item">
+                            <div class="title">Brand Sr. Specialist 品牌营销策划 </div>
+                            <div class="desc">
+                                <ul>
+                                    <li>品牌PM: 主导多个品牌上市与GTM项目, 统筹上海车展、HiPhi Y上新车市发布会等品牌及产品物料产出, 制定内容营销及专项传播策略并落地执行;</li>
+                                    <li>公关策略: 对HiPhi Y车型全平台舆情监控并分析, 包括音响及芯片等事件, 主动分享应对话术，实现口碑逆转;</li>
+                                    <li>用户活动: 策划多场用户活动，其中包括: 新车上市全国巡游、全国集中试驾会、交付中心成立、高合上海车友会成立、香氛品鉴活动, 覆盖人数超1w+;</li>
+                                    <li>物料制作: 负责新车上市物料的产出, 包括工厂整车下线、冬季测试、发布会VCR、场景演绎、大促海报、OTA等多条视频制作, 有效控制成本;</li>
+                                    <li>内容创意: 0预算打造多个爆款内容专题及IP包括 “展翼门的100种玩法”、“用车场景扑克牌”、“#高合小Y”、“#杨老师小课堂”等多个创意类物料。</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="title">Sales Lead 代理店长</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>销售业绩: 在担任销售代理店长期间, 个人销售额过亿, 上海特区排名第一, 团队销售额占上海总量15%; </li>
+                                    <li>流程规范: 构建销售内容管理系统, 设计展厅接待动线、绕车讲解、试驾路线等多个标准接待流程, 优化客户管理系统;</li>
+                                    <li>运营提效: 重新配各门店垂媒车型页, 搭建具像化邀约模型、优化后留咨数占基盘比涨幅10%, 垂媒订单转化率同比提高 45%，传播声量与运营效率大幅提高;</li>
+                                    <li>异业合作: 促进品牌联合及资源置换, 拓展高净值客户, 增加留资收益, 包含对接合作多领域, 包括 DQ、SCABAL、宁波银行、保利国际艺术中心等;</li>
+                                    <li>培训课件: 参与开发产品培训课件，出镜并制作海外版绕车讲解培训视频，设计模拟考试软件，帮助销售人员自主学习，大幅降低培训成本。</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="time">❖ 2020.04 ~ 2020.12</div>
+                    <div class="name">
+                        <div class="company"><a href="https://baike.baidu.com/item/ELLEDECO家居廊/56966606?fr=ge_ala" target="_blank"> ELLEDECO 家居廊↗</a></div>
+                        <div class="company"><a href="https://www.ellechina.com" target="_blank">  ELLE ( Hearst 赫斯特中国)↗</a></div>
+                        <div class="job">展会｜传播｜运营｜商务| </div>
+                        <div class="job">Social| 物料| KOL| 月报</div>
+                    </div>
+                    <div class="project-experience">
+                        <div class="item">
+                            <div class="title">ELLEDECO 译文出版社家居廊专题总监助理及新媒体编辑</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>展会策划: 策划执行多个设计类展会并撰写发言稿, 如五菱凯捷新车发布会、EDIDA、西岸艺博会、ART021、Philip新品见面会等;</li>
+                                    <li>内容运营: 完成专题分栏, 日更排期, 撰写原创推文 30 余条, 其中 25 篇阅读量破 3W, 个人推文累计阅读量超 50W; </li>
+                                    <li>物料制作: 参与设计制作家居廊“躺平”展宣发, 执行并输出包括新闻稿、海报、视频、H5 等产品宣传物料;</li>
+                                    <li>KOL维护: 探索新的KOL合作模式,从0到1建立社媒KOL, 日常维护沟通核心KOL及设计师达到10+，促成广告商务合作, 产出专访内容10余条, 浏览量均破万;</li>
+                                    <li>数据分析: 检验新媒体全平台传播效果, 包括竞刊统计、读数来源、百度指数、互动转化率，交付月报以及 EDM; 整理多渠道信息, 输出报告并支持后续项目迭代。</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="time">❖ 2018.09 ~ 2020.02</div>
+                    <div class="name">
+                        <div class="company"><a href="https://www.northeastern.edu/" target="_blank"> 美国东北大学↗</a></div>
+                        <div class="job">GPA: 3.75/4.0 (top 10%)</div>
+                    </div>
+                    <div class="project-experience">
+                        <div class="item">
+                            <div class="title">数据分析 硕士 </div>
+                            <div class="desc">
+                                <ul>
+                                    <li>主修课程：统计学; 概率论; 数据挖掘; 数据可视化；数据仓库;SQL; 预测分析学; 数据管理&大数据; 风险管理等;</li>
+                                    <li>论文包括：五岁以下新生儿致死原因; SDG 可持续发展；波士顿房价数据分析；大数据在城市管理中的实践应用等; </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="time">❖ 2014.08 ~ 2018.05</div>
+                    <div class="name">
+                        <div class="company"><a href="https://www.missouristate.edu/" target="_blank"> 密苏里州立大学商学院↗</a></div>
+                        <div class="job">GPA: 3.76/4.0 (top 20%)</div>
+                    </div>
+                    <div class="project-experience">
+                        <div class="item">
+                            <div class="title">市场营销 国际商务 双学士学位 </div>
+                            <div class="desc">
+                                <ul>
+                                    <li>主修课程：营销管理; 项目管理; 财务会计; 管理会计；运营管理; 微观经济学; 宏观经济学; 物流管理; 广告学等。</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright">
+            <div>© 2023 Design by <a href="https:///" target="_blank">Evelynn</a></div>
+            <span>|</span>
+            <div class="fillings">
+                <a href="https://evelynnt1.cn/" target="_blank">Evelynn</a>
+            </div>
+            <span>|</span>
+            <div class="friends">
+                <a href="https://zdo.fun/" target="_blank">ZDO</a>
+            </div>
+        </div>
+    </div>
+    <div class="widget">
+        <div class="shape-light"></div>
+        <div class="shape-star">
+            <div class="rising-stars rising-stars-visible">
+                <div style="height:1px;width:1px"></div>
+                <div style="height:2px;width:2px"></div>
+                <div style="height:1px;width:1px"></div>
+            </div>
+        </div>
+        <div class="shape-earth"></div>
+    </div>
+</body>
+<script src="./js/main.min.js"></script>
+<script src='./js/anime.js'></script>
+<script src='./js/firework.js'></script>
+</html>
